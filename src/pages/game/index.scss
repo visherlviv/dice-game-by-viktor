@@ -1,0 +1,24 @@
+.controls-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.custom-dialog-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-dialog-header-loose {
+  margin-left: 15px;
+}
+.custom-dialog-header-win {
+  margin-left: 5px;
+}
+.custom-dialog-loose-message {
+  font-size: 16px;
+}

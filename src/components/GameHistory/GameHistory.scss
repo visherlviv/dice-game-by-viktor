@@ -1,0 +1,21 @@
+.game-history-table-row {
+  height: 32px;
+}
+.game-history-table-container {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  height: 320px;
+  max-height: 320px;
+}
+.game-history-table-header {
+  font-weight: bold;
+  width: 150px;
+}
+.game-history-win-text-color {
+  color: green;
+}
+.game-history-loose-text-color {
+  color: red;
+}
