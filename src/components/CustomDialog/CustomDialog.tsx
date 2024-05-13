@@ -1,11 +1,7 @@
 import React from "react";
 import { Dialog, DialogTitle } from "@mui/material";
-interface CustomDialogProps {
-  open: boolean;
-  onClose: () => void;
-  style: string;
-  children?: React.ReactNode;
-}
+
+import { CustomDialogProps } from "@/types";
 
 const CustomDialog: React.FC<CustomDialogProps> = ({
   open,

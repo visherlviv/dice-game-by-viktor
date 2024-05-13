@@ -13,3 +13,9 @@ export interface GameControlsProps {
   rollDice: () => void;
   score: number;
 }
+export interface CustomDialogProps {
+  open: boolean;
+  onClose: () => void;
+  style: string;
+  children?: React.ReactNode;
+}
